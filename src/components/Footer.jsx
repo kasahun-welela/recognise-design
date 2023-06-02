@@ -14,7 +14,7 @@ function Footer() {
         />
         {/* </div> */}
 
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-2 mt-20">
+        <div className="grid grid-cols-2 text-sm md:grid-cols-3 gap-2 mt-20">
           <div className="text-left leading-9">
             <h1 className="text-xl font-semibold text-white">Quick Link</h1>
             <h3>Home</h3>
@@ -61,7 +61,7 @@ function Footer() {
         <h1 className="text-white font-bold text-base mt-5">
           Copyright 2022 Recognise Design
         </h1>
-        <p className="text-center mt-5">
+        <p className="text-center mx-5">
           Thank you for visiting our website. We value your interest in our
           services and look forward to helping you. If you have any questions or
           need assistance, please don't hesitate to contact us. Our friendly
