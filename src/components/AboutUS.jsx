@@ -6,8 +6,8 @@ function AboutUS() {
       <h1 className="mt-6 text-center text-2xl font-bold mb-3 text-blue-800">
         About us
       </h1>
-      <div className="mx-7 flex flex-col leading-relaxed  items-center">
-        <div className="text-center">
+      <div className="mx-7 flex flex-col md:flex-row-reverse md:gap-4 leading-relaxed  items-center">
+        <div className="text-center md:text-start">
           <h3 className="font-bold text-xl mb-3">
             Get a solution to your business
           </h3>
@@ -59,7 +59,7 @@ function AboutUS() {
           </a>
         </div>
 
-        <img src="./aboutUs.png" />
+        <img className="md:w-2/4" src="./aboutUs.png" />
       </div>
     </>
   );
