@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import OurWork from "./components/OurWork";
 import Footer from "./components/Footer";
+import Testimonal from "./components/Testimonal";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Card />
       {/* <Carousel /> */}
       <OurWork />
+      <Testimonal />
       <Footer />
     </>
   );
