@@ -7,6 +7,7 @@ import Hero from "./components/Hero";
 import OurWork from "./components/OurWork";
 import Footer from "./components/Footer";
 import Testimonal from "./components/Testimonal";
+import Collaboration from "./components/Collaboration";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       {/* <Carousel /> */}
       <OurWork />
       <Testimonal />
+      <Collaboration />
       <Footer />
     </>
   );

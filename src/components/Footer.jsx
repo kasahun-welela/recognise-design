@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <>
-      <div className="bg-gray-900 relative  text-gray-400 p-10  flex flex-col items-center">
+      <div className="bg-gray-900 relative  text-gray-400 p-10  flex flex-col items-center mt-20">
         <img src="footerlogo.png" className="h-25 w-20" alt="footerlogo" />
 
         {/* <div className="relative"> */}
