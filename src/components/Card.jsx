@@ -2,9 +2,9 @@ import React from "react";
 
 function Card() {
   return (
-    <div className="md:grid grid-cols-2 lg:grid-cols-3">
+    <div className="m-7 md:grid grid-cols-2 lg:grid-cols-3 gap-4">
       {/* card one start here */}
-      <div className="m-7 p-10 flex flex-col gap-5 justify-around items-center shadow-2xl rounded-2xl hover:bg-blue-700 hover:text-white">
+      <div className=" p-10 flex flex-col gap-5 justify-around items-center shadow-2xl rounded-2xl hover:bg-blue-700 hover:text-white">
         <div className="rounded-full w-16  p-3 bg-blue-900 hover:white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -37,7 +37,7 @@ function Card() {
       {/* card one end here  */}
 
       {/* card 2 start here */}
-      <div className="m-7 p-10 flex flex-col gap-5 justify-around items-center shadow-2xl rounded-2xl hover:bg-blue-700 hover:text-white">
+      <div className=" p-10 flex flex-col gap-5 justify-around items-center shadow-2xl rounded-2xl hover:bg-blue-700 hover:text-white">
         <div className="rounded-full w-16 p-3  bg-red-500 ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -70,7 +70,7 @@ function Card() {
       {/* card 2 end here */}
 
       {/* card 3 start here */}
-      <div className="m-7 p-10 flex flex-col gap-5 justify-around items-center shadow-2xl rounded-2xl hover:bg-blue-700 hover:text-white">
+      <div className=" p-10 flex flex-col gap-5 justify-around items-center shadow-2xl rounded-2xl hover:bg-blue-700 hover:text-white">
         <div className="rounded-full w-16 p-3 bg-green-500 hover:white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -104,7 +104,7 @@ function Card() {
       {/* card 3 end here */}
 
       {/* card 4 start here */}
-      <div className="m-7 p-10 flex flex-col gap-5 justify-around items-center shadow-2xl rounded-2xl hover:bg-blue-700 hover:text-white">
+      <div className=" p-10 flex flex-col gap-5 justify-around items-center shadow-2xl rounded-2xl hover:bg-blue-700 hover:text-white">
         <div className="rounded-full w-16 p-3 bg-yellow-400">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -137,7 +137,7 @@ function Card() {
       {/* card 4 end here */}
 
       {/* card 5 start here */}
-      <div className="m-7 p-10 flex flex-col gap-5 justify-around items-center shadow-2xl rounded-2xl hover:bg-blue-700 hover:text-white">
+      <div className=" p-10 flex flex-col gap-5 justify-around items-center shadow-2xl rounded-2xl hover:bg-blue-700 hover:text-white">
         <div className="rounded-full w-16 p-3  bg-blue-400">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -171,7 +171,7 @@ function Card() {
       </div>
       {/* card 5 end here */}
       {/* card 6 start here */}
-      <div className="m-7 p-10 flex flex-col gap-5 justify-around items-center shadow-2xl rounded-2xl hover:bg-blue-700 hover:text-white">
+      <div className=" p-10 flex flex-col gap-5 justify-around items-center shadow-2xl rounded-2xl hover:bg-blue-700 hover:text-white">
         <div className="rounded-full w-16 p-3  bg-blue-700 hover:white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
