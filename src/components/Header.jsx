@@ -3,7 +3,7 @@ import React, { useState } from "react";
 // import { IconName } from "react-icons/bs";
 
 function Header() {
-  const [isNavOpen, setIsNavOpen] = useState(false);
+  const [isNavOpen, setIsNavOpen] = useState(true);
   const handleMenu = () => setIsNavOpen((prev) => !prev);
   return (
     <div className="w-full shadow-2xl">
