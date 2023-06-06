@@ -8,6 +8,8 @@ function Testimonal() {
     dots: true,
     infinite: true,
     speed: 500,
+    autoplay: true,
+    autoplaySpeed: 9000,
     slidesToShow: 3,
     slidesToScroll: 3,
     responsive: [

@@ -1,35 +1,44 @@
 import React from "react";
 import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 function Carousel() {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 9000,
+    slidesToShow: 5,
+    slidesToScroll: 3,
   };
   return (
     <div>
-      <h2> Single Item</h2>
-      <Slider {...settings}>
+      <Slider
+        {...settings}
+        className="m-7 flex gap-2  border-solid border-y-2 py-2 border-gray-200 justify-center items-center"
+      >
         <div>
-          <h3>1</h3>
+          <img src="b1.png" alt="business logo 1" />
         </div>
         <div>
-          <h3>2</h3>
+          <img src="b2.png" alt="business logo 2" />
         </div>
         <div>
-          <h3>3</h3>
+          <img src="b3.png" alt="business logo 3" />
         </div>
         <div>
-          <h3>4</h3>
+          <img src="b4.png" alt="business logo 4" />
         </div>
         <div>
-          <h3>5</h3>
+          <img src="b5.png" alt="business logo 5" />
         </div>
         <div>
-          <h3>6</h3>
+          <img src="b6.png" alt="business logo 6" />
+        </div>
+        <div>
+          <img src="b7.png" alt="business logo 7" />
         </div>
       </Slider>
     </div>
