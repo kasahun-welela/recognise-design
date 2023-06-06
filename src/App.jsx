@@ -17,7 +17,6 @@ function App() {
       <Carousel />
       <AboutUS />
       <Card />
-
       <OurWork />
       <Testimonal />
       <Collaboration />

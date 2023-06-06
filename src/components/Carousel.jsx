@@ -14,32 +14,21 @@ function Carousel() {
     slidesToScroll: 3,
   };
   return (
-    <div>
-      <Slider
-        {...settings}
-        className="m-7 flex gap-2  border-solid border-y-2 py-2 border-gray-200 justify-center items-center"
-      >
-        <div>
-          <img src="b1.png" alt="business logo 1" />
-        </div>
-        <div>
-          <img src="b2.png" alt="business logo 2" />
-        </div>
-        <div>
-          <img src="b3.png" alt="business logo 3" />
-        </div>
-        <div>
-          <img src="b4.png" alt="business logo 4" />
-        </div>
-        <div>
-          <img src="b5.png" alt="business logo 5" />
-        </div>
-        <div>
-          <img src="b6.png" alt="business logo 6" />
-        </div>
-        <div>
-          <img src="b7.png" alt="business logo 7" />
-        </div>
+    <div className="m-7 border-solid border-y-2  border-gray-200">
+      <Slider {...settings}>
+        <img src="b1.png" alt="business logo 1" />
+
+        <img src="b2.png" alt="business logo 2" />
+
+        <img src="b3.png" alt="business logo 3" />
+
+        <img src="b4.png" alt="business logo 4" />
+
+        <img src="b5.png" alt="business logo 5" />
+
+        <img src="b6.png" alt="business logo 6" />
+
+        <img src="b7.png" alt="business logo 7" />
       </Slider>
     </div>
   );
