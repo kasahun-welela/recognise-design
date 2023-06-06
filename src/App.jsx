@@ -14,9 +14,10 @@ function App() {
     <>
       <Header />
       <Hero />
+      <Carousel />
       <AboutUS />
       <Card />
-      <Carousel />
+
       <OurWork />
       <Testimonal />
       <Collaboration />

@@ -9,7 +9,7 @@ function Carousel() {
     infinite: true,
     speed: 500,
     autoplay: true,
-    autoplaySpeed: 9000,
+    autoplaySpeed: 2000,
     slidesToShow: 5,
     slidesToScroll: 3,
   };
