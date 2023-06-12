@@ -2,7 +2,7 @@ import React from "react";
 
 function Card() {
   return (
-    <div className="m-7 md:grid grid-cols-2 lg:grid-cols-3 gap-4">
+    <div className="m-7 md:mx-40  md:grid grid-cols-2 lg:grid-cols-3 gap-4">
       {/* card one start here */}
       <div className=" p-10 flex flex-col gap-5 justify-around items-center shadow-2xl rounded-2xl hover:bg-blue-700 hover:text-white">
         <div className="rounded-full w-16  p-3 bg-blue-900 hover:white">

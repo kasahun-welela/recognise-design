@@ -4,7 +4,7 @@ function Hero() {
   return (
     <>
       {/* bg-[url('./pattern.png')] pt-9 */}
-      <div className="pt-9  mx-6 text-center">
+      <div className="pt-9  mx-7 md:mx-40  text-center">
         <h1 className="mt-20 md:mt-2 mr-3  font-bold md:text-4xl  text-2xl text-blue-800">
           Enhancing your online presence from development to optimisation
         </h1>
@@ -21,8 +21,8 @@ function Hero() {
           Get Quote
         </a>
         {/* <div className=' relative mt-9 md:w-1/2 lg:w-1/2 mx-auto '> */}
-        <div className=" relative mt-20 ">
-          <img className="w-9/12 mx-auto" src="./hero.png" />
+        <div className=" relative mt-20 md:mx-40 ">
+          <img className="w-9/12 mx-auto " src="./hero.png" />
           <div className="absolute -top-8 left-8 py-3 px-5 drop-shadow-2xl rounded-xl  bg-white md:top-20">
             <h3 className="font-light p-1 text-[7px] uppercase md:p-2">
               Great project

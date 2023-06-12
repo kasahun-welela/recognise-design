@@ -3,7 +3,7 @@ import React from "react";
 function Collaboration() {
   return (
     <>
-      <div className="mt-10 mx-7 md:flex md:flex-row-reverse">
+      <div className="mt-10 mx-7 md:mx-40  md:flex md:flex-row-reverse">
         <div className="relative  flex h-60">
           <img
             src="col2.png"
