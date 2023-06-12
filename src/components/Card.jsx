@@ -3,7 +3,7 @@ import { data } from "../cardData";
 function Card(prop) {
   console.log(data);
   return (
-    <div className="m-7 lg:mx-40  md:grid grid-cols-2 lg:grid-cols-3 gap-4">
+    <div className="m-7 lg:mx-40 md:mx-24 md:grid grid-cols-2 lg:grid-cols-3 gap-4">
       {data.map((values) => (
         <div
           className=" p-10 flex flex-col gap-5 justify-around items-center shadow-2xl rounded-2xl hover:bg-blue-700 hover:text-white"

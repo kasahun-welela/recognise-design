@@ -3,7 +3,7 @@ import React from "react";
 function OurWork() {
   return (
     <>
-      <div className="mx-7 md:mx-40  md:grid grid-cols-2 gap-2 gap-x-3">
+      <div className="mx-7 md:mx-24 md:grid grid-cols-2 gap-2 gap-x-3">
         <div>
           <h1 className=" text-center text-2xl font-bold mb-3 text-blue-800">
             Our Works

@@ -46,7 +46,7 @@ function Testimonal() {
       <h1 className="text-center font-bold text-xl mb-4">
         People Who work with us
       </h1>
-      <Slider {...settings} className="md:mx-40  mx-7">
+      <Slider {...settings} className="md:mx-24  mx-7">
         {/* testimonal card */}
         <div className=" p-4 shadow-xl flex flex-col rounded-xl max-w-sm mb-8 ">
           <div className="flex p-3">
