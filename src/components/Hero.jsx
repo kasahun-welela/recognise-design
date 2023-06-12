@@ -21,7 +21,7 @@ function Hero() {
           Get Quote
         </a>
         {/* <div className=' relative mt-9 md:w-1/2 lg:w-1/2 mx-auto '> */}
-        <div className=" relative mt-20 md:mx-40 ">
+        <div className=" relative mt-20 md:mx-24 ">
           <img className="w-9/12 mx-auto " src="./hero.png" />
           <div className="absolute -top-8 left-8 py-3 px-5 drop-shadow-2xl rounded-xl  bg-white md:top-20">
             <h3 className="font-light p-1 text-[7px] uppercase md:p-2">
@@ -32,7 +32,7 @@ function Hero() {
             </p>
           </div>
           {/* bill adams card */}
-          <div className=" absolute -bottom-10 right-2 -md:right-12 md:p-4 md:max-w-xs  md:w-1/5 bg-white p-1 w-1/5 drop-shadow-2xl rounded-xl border-2">
+          <div className=" absolute -bottom-10 right-2 -md:right-12 md:p-4 md:max-w-xs  md:w-1/3 bg-white p-1 w-1/5 drop-shadow-2xl rounded-xl border-2">
             <div className="flex items-center  ">
               <img
                 className="rounded-full w-5 h-5 md:w-10 md:h-10"
@@ -56,16 +56,6 @@ function Hero() {
       <p className="text-center mt-20 text-xl font-extralight">
         With 10+ business growing with us
       </p>
-      {/* <div className="w-full flex justify-between items-center px-6 py-3 mt-10 border-y-2">
-        <img className=" " src="./business1.png" />
-        <img className=" " src="./business2.png" />
-        <img className=" " src="./business3.png" />
-        <img className=" " src="./business4.png" />
-        <img className=" " src="./business5.png" />
-        <img className=" " src="./business2.png" />
-        <img className=" " src="./business4.png" />
-        <img className=" " src="./business5.png" />
-      </div> */}
     </>
   );
 }
