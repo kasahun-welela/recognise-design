@@ -24,7 +24,7 @@ function OurWork() {
         </div>
         <div className="bg-teal-300 md:max-h-96 my-4 flex justify-center  rounded-xl">
           {/* <div className="h-35"> */}
-          <img className="absolute right-0" src="./ourMeg2.png" />
+          {/* <img className="absolute right-0" src="./ourMeg2.png" /> */}
           <img className="md:w-full" src="./ourMeg1.png" />
           {/* </div> */}
         </div>
