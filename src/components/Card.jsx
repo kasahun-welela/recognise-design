@@ -21,14 +21,14 @@ function Card(prop) {
               <path d={values.topImgPath}></path>
             </svg>
           </div>
-          <h1 className="font-bold text-xl">{values.title}</h1>
+          <h1 className="font-bold text-center text-xl">{values.title}</h1>
           <p className="text-center">{values.description}</p>
 
           <div className="rounded-full w-10  bg-gray-200 hover:bg-white">
             <a href="#">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="hover:text-white p-2 bg-blue"
+                className="p-2 bg-blue"
                 fill="currentColor"
                 viewBox="0 0 24 24"
               >
