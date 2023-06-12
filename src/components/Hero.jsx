@@ -32,7 +32,7 @@ function Hero() {
             </p>
           </div>
           {/* bill adams card */}
-          <div className=" absolute -bottom-10 right-2 -md:right-12 md:p-4 md:max-w-xs  md:w-1/3 bg-white p-1 w-1/5 drop-shadow-2xl rounded-xl border-2">
+          <div className=" absolute -bottom-10 right-2 -md:right-12 md:p-4 md:max-w-xs  md:w-1/5 bg-white p-1 w-1/5 drop-shadow-2xl rounded-xl border-2">
             <div className="flex items-center  ">
               <img
                 className="rounded-full w-5 h-5 md:w-10 md:h-10"
