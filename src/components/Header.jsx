@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-// import { BsChevronDown,BsFill1CircleFill,BsMenuButtonWide } from "react-icons/bs";
-// import { IconName } from "react-icons/bs";
 
 function Header() {
   const [isNavOpen, setIsNavOpen] = useState(true);
@@ -12,11 +10,22 @@ function Header() {
           <img src="./logo.png" alt="lll" />
         </h1>
         <ul className=" md:flex lg:flex  gap-5 font-serif hidden mr-20 ">
-          <li className="hover:bg-slate-200 font-semibold">Home</li>
-          <li className="hover:bg-slate-200 font-semibold">About</li>
-          <li className="hover:bg-slate-200 font-semibold">Services</li>
-          <li className="hover:bg-slate-200 font-semibold">Portofolio</li>
-          <li className="hover:bg-slate-200  font-semibold">Contact Us</li>
+          <li className="hover:bg-slate-200 font-semibold">
+            {" "}
+            <a href="/">Home</a>
+          </li>
+          <li className="hover:bg-slate-200 font-semibold">
+            <a href="/about">About</a>
+          </li>
+          <li className="hover:bg-slate-200 font-semibold">
+            <a href="/services">Services</a>
+          </li>
+          <li className="hover:bg-slate-200 font-semibold">
+            <a href="/portofolio">Portofolio</a>
+          </li>
+          <li className="hover:bg-slate-200  font-semibold">
+            <a href="/contactus">Contact Us</a>
+          </li>
         </ul>
       </div>
 
@@ -44,11 +53,24 @@ function Header() {
         </div>
         {!isNavOpen && (
           <ul className="bg-white font-serif flex flex-col pl-4 pt-3 gap-1">
-            <li className="hover:bg-slate-200 font-semibold">Home</li>
-            <li className="hover:bg-slate-200 font-semibold">About</li>
-            <li className="hover:bg-slate-200 font-semibold">Services</li>
-            <li className="hover:bg-slate-200 font-semibold">Portofolio</li>
-            <li className="hover:bg-slate-200  font-semibold">Contact Us</li>
+            <li className="hover:bg-slate-200 font-semibold">
+              {" "}
+              <a href="/">Home</a>
+            </li>
+            <li className="hover:bg-slate-200 font-semibold">
+              {" "}
+              <a href="/about">About</a>
+            </li>
+            <li className="hover:bg-slate-200 font-semibold">
+              {" "}
+              <a href="/services">Services</a>
+            </li>
+            <li className="hover:bg-slate-200 font-semibold">
+              <a href="/portofolio">Portofolio</a>
+            </li>
+            <li className="hover:bg-slate-200  font-semibold">
+              <a href="/contactus">Contact Us</a>
+            </li>
           </ul>
         )}
       </div>
