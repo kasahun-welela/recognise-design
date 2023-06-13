@@ -11,8 +11,8 @@ function App() {
       <Header />
       <BrowserRouter>
         <Routes>
-          <Route path="/" exact element={<Home />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/" exact Component={<Home />} />
+          <Route path="/about" exact Component={<About />} />
         </Routes>
       </BrowserRouter>
 
