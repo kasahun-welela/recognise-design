@@ -18,7 +18,7 @@ function Home() {
         {data.map((values) => (
           <Card
             key={values.id}
-            bgColor={values.bgColor}
+            cssClass={values.cssClass}
             topImgPath={values.topImgPath}
             title={values.title}
             description={values.description}
