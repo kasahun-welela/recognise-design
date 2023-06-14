@@ -1,5 +1,7 @@
 import React from "react";
 import Card from "../components/Card";
+import Carousel from "../components/Carousel";
+import Collaboration from "../components/Collaboration";
 
 function About() {
   const coreValue = [
@@ -79,38 +81,38 @@ function About() {
           </p>
         </div>
         <div>
-          <div className="text-center">
+          <div className="flex flex-col items-center gap-2">
             <img src="./discovery.png" alt="icon" />
             <h3 className="font-bold ">Discovery</h3>
-            <p>
+            <p className="text-justify">
               Velit lacus ipsum, urna, pretium lacinia. Mauris fermentum ut nunc
               est, nibh. Lectus eu vel et placerat sed velit morbi diam. Amet
               malesuada eget aliquam imperdiet. Arcu dolor sed pretiu
             </p>
           </div>
-          <div>
+          <div className="flex flex-col items-center gap-2">
             <img src="./plan.png" alt="icon" />
             <h3 className="font-bold ">Plan</h3>
-            <p>
+            <p className="text-justify">
               Tellus, lacus, sem adipiscing ac sem amet. Vitae proin volutpat
               cras tempus vitae. Ipsum consectetur quis diam hendrerit pharetra
               amet scelerisque. Elementum risus aliquam quam etiam. Eget eu
               risus dui lacus, orci. Cras ultricies posuere adipiscing faucibu.
             </p>
           </div>
-          <div>
+          <div className="flex flex-col items-center gap-2">
             <img src="./execute.png" alt="icon" />
             <h3 className="font-bold ">Execute</h3>
-            <p>
+            <p className="text-justify">
               Congue ridiculus at tortor mattis turpis bibendum at pulvinar
               viverra. Ultrices morbi amet quam nisl risus libero, sodales nibh
               faucibus. Sed gravida elementum auctor fermentum id sem
             </p>
           </div>
-          <div>
+          <div className="flex flex-col items-center gap-2">
             <img src="./deliver.png" alt="icon" />
             <h3 className="font-bold ">Deliver</h3>
-            <p>
+            <p className="text-justify">
               Pellentesque id pharetra, semper neque purus. Ante lacinia in ut
               sagittis sed sapien. In facilisi in a diam. Pellentesque arcu
               faucibus vel ornare pulvinar sollicitudin eu. Tempus nisi
@@ -120,6 +122,8 @@ function About() {
           </div>
         </div>
       </div>
+      <Carousel />
+      <Collaboration />
     </div>
   );
 }

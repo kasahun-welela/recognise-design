@@ -53,9 +53,7 @@ function Hero() {
           </div>
         </div>
       </div>
-      <p className="text-center mt-20 text-xl font-extralight">
-        With 10+ business growing with us
-      </p>
+    
     </>
   );
 }

@@ -2,7 +2,7 @@ import React from "react";
 
 function ErrorPage() {
   return (
-    <div className="mt-28 flex flex-col justify-center items-center gap-4">
+    <div className="mt-28 flex flex-col items-center gap-4">
       <h1 className="text-blue-600 font-bold text-5xl">Oops!</h1>
       <h2 className="font-bold text-2xl">404 -page Not found</h2>
       <p className="text-xl text-center">
