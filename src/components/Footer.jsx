@@ -74,7 +74,6 @@ function Footer() {
           alt="footerlogo"
         />
       </div>
-      ;
     </>
   );
 }
