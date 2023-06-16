@@ -1,7 +1,6 @@
 import React from "react";
 
 function Card(prop) {
-  console.log(prop);
   return (
     <>
       <div className=" p-10 flex flex-col gap-5 justify-around items-center shadow-2xl rounded-2xl hover:bg-blue-600 hover:text-white">

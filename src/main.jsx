@@ -6,6 +6,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import ErrorPage from "./pages/ErrorPage";
+import Contact from "./pages/Contact";
+import "remixicon/fonts/remixicon.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -14,6 +16,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route path="/" element={<App />}>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/contactus" element={<Contact />} />
           <Route path="*" element={<ErrorPage />} />
         </Route>
       </Routes>
