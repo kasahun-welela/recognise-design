@@ -8,6 +8,7 @@ import About from "./pages/About";
 import ErrorPage from "./pages/ErrorPage";
 import Contact from "./pages/Contact";
 import "remixicon/fonts/remixicon.css";
+import Service from "./pages/Service";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -17,6 +18,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contactus" element={<Contact />} />
+          <Route path="/services" element={<Service />} />
           <Route path="*" element={<ErrorPage />} />
         </Route>
       </Routes>
