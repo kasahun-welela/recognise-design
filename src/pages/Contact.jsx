@@ -38,30 +38,36 @@ function Contact() {
           Mill, HERTFORD, SG13 7AE
         </p>
       </div>
-      <p className="font-light ">I need</p>
-      {btnData.map((data) => (
-        <Button title={data.title} key={data.id} />
-      ))}
-      <div className="flex flex-col gap-4 mt-4">
-        <input
-          className="bg-gray-100  border-2 border-gray-200 rounded  py-3 px-4 text-gray-600  focus:outline-none focus:bg-white focus:border-blue-500"
-          type="text"
-          placeholder="First Name"
-        />
-        <input
-          className="bg-gray-100  border-2 border-gray-200 rounded  py-3 px-4 text-gray-600  focus:outline-none focus:bg-white focus:border-blue-500"
-          type="text"
-          placeholder="Last Name"
-        />
-        <input
-          className="bg-gray-100  border-2 border-gray-200 rounded  py-3 px-4 text-gray-600  focus:outline-none focus:bg-white focus:border-blue-500"
-          type="text"
-          placeholder="Email"
-        />
-        <textarea
-          defaultValue="message"
-          className="bg-gray-100  border-2 border-gray-200 rounded  py-3 px-4 text-gray-600  focus:outline-none focus:bg-white focus:border-blue-500"
-        />
+
+      <div className=" md:w-1/2 m-auto ">
+        <p className="font-light mb-5 ">I need</p>
+        {btnData.map((data) => (
+          <Button title={data.title} key={data.id} />
+        ))}
+        <div className="flex flex-col  gap-4 mt-5   ">
+          <input
+            className="bg-gray-100  border-2 border-gray-200 rounded  py-3 px-4 text-gray-600  focus:outline-none focus:bg-white focus:border-blue-500"
+            type="text"
+            placeholder="First Name"
+          />
+          <input
+            className="bg-gray-100  border-2 border-gray-200 rounded  py-3 px-4 text-gray-600  focus:outline-none focus:bg-white focus:border-blue-500"
+            type="text"
+            placeholder="Last Name"
+          />
+          <input
+            className="bg-gray-100  border-2 border-gray-200 rounded  py-3 px-4 text-gray-600  focus:outline-none focus:bg-white focus:border-blue-500"
+            type="text"
+            placeholder="Email"
+          />
+          <textarea
+            defaultValue="message"
+            className="bg-gray-100  border-2 border-gray-200 rounded  py-3 px-4 text-gray-600  focus:outline-none focus:bg-white focus:border-blue-500"
+          />
+        </div>
+        <a className="mt-5 text-center block w-1/4 mx-auto border-2 font-medium  px-6 py-3 rounded-3xl bg-blue-700 text-white ">
+          Submit
+        </a>
       </div>
     </div>
   );
