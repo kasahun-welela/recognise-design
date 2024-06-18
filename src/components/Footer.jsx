@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 function Footer() {
   return (
     <>
@@ -17,46 +17,143 @@ function Footer() {
         <div className="grid grid-cols-2 text-sm md:grid-cols-3 gap-2 mt-20">
           <div className="text-left leading-9">
             <h1 className="text-xl font-semibold text-white">Quick Link</h1>
-            <h3>Home</h3>
-            <h3>About</h3>
-            <h3>Services</h3>
-            <h3>Contact Us</h3>
+
+            <ul>
+              <li>
+                <Link
+                  to="/"
+                  className="hover:text-white inline-block hover:font-semibold"
+                >
+                  Home
+                </Link>
+              </li>
+              <li>
+                {" "}
+                <Link
+                  to="/about"
+                  className="hover:text-white inline-block hover:font-semibold"
+                >
+                  About
+                </Link>
+              </li>
+              <li>
+                {" "}
+                <Link
+                  to="/services"
+                  className="hover:text-white inline-block hover:font-semibold"
+                >
+                  Services
+                </Link>
+              </li>
+              <li>
+                {" "}
+                <Link
+                  to="/contact_us"
+                  className="hover:text-white inline-block hover:font-semibold"
+                >
+                  Contact Us
+                </Link>
+              </li>
+            </ul>
           </div>
           <div className="text-left  leading-9">
             <h1 className="text-xl text-white font-semibold">Services</h1>
-            <h3>Mobile Development</h3>
-            <h3>Web Development</h3>
-            <h3>User interface Design</h3>
-            <h3>SEO</h3>
-            <h3>web Analytics</h3>
+            <ul>
+              <li>
+                <Link
+                  to="/mobile_development"
+                  className="hover:text-white inline-block hover:font-semibold"
+                >
+                  Mobile Development
+                </Link>
+              </li>
+              <li>
+                {" "}
+                <Link
+                  to="/seb_development"
+                  className="hover:text-white inline-block hover:font-semibold"
+                >
+                  Web Development
+                </Link>
+              </li>
+              <li>
+                {" "}
+                <Link
+                  to="/ui_design"
+                  className="hover:text-white inline-block hover:font-semibold"
+                >
+                  User interface Design
+                </Link>
+              </li>
+              <li>
+                {" "}
+                <Link
+                  to="/seo"
+                  className="hover:text-white inline-block hover:font-semibold"
+                >
+                  SEO
+                </Link>
+              </li>
+              <li>
+                {" "}
+                <Link
+                  to="/web_analytics"
+                  className="hover:text-white inline-block hover:font-semibold"
+                >
+                  Web Analytics
+                </Link>
+              </li>
+            </ul>
           </div>
           <div className="text-left leading-9">
             <h1 className="text-xl text-white font-semibold">Company</h1>
-            <h3>Terms</h3>
-            <h3>Privacy policy</h3>
+            <ul>
+              <li>
+                <Link
+                  to="/terms_condition"
+                  className="hover:text-white inline-block hover:font-semibold"
+                >
+                  Terms and Condition
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/privacy_policy"
+                  className="hover:text-white inline-block hover:font-semibold"
+                >
+                  Privacy Policy
+                </Link>
+              </li>
+            </ul>
           </div>
         </div>
-        <div className="flex gap-2 mt-10">
-          <img
-            className="bg-gray-700 p-2 rounded-full "
-            src="gmail.png"
-            alt="vcv"
-          />
-          <img
-            className="bg-gray-700 p-2 rounded-full "
-            src="twt.png"
-            alt="vcv"
-          />
-          <img
-            className="bg-gray-700 p-2 rounded-full "
-            src="insta.png"
-            alt="vcv"
-          />
-          <img
-            className="bg-gray-700 p-2 rounded-full "
-            src="linkedin.png"
-            alt="vcv"
-          />
+        <div className="flex gap-5 mt-10">
+          <Link target="_blank" to="https://g.page/r/CZ9-BZK43VGVEBA">
+            <img
+              className="bg-gray-700 p-2 rounded-full hover:bg-[#032e4d]"
+              src="gmail.png"
+              alt="vcv"
+            />
+          </Link>
+
+          <Link target="_blank" to="https://www.instagram.com/recognisedesign/">
+            <img
+              className="bg-gray-700 p-2 rounded-full hover:bg-[#032e4d]"
+              src="insta.png"
+              alt="vcv"
+            />
+          </Link>
+
+          <Link
+            target="_blank"
+            to="https://www.linkedin.com/company/recognise-design/"
+          >
+            <img
+              className="bg-gray-700 p-2 rounded-full hover:bg-[#032e4d]"
+              src="linkedin.png"
+              alt="vcv"
+            />
+          </Link>
         </div>
         <h1 className="text-white font-bold text-base mt-5">
           Copyright 2022 Recognise Design

@@ -17,10 +17,10 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route path="/" element={<App />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
-          <Route path="contactus" element={<Contact />} />
+          <Route path="contact_us" element={<Contact />} />
           <Route path="services" element={<Service />} />
-          <Route path="*" element={<ErrorPage />} />
         </Route>
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
