@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function OurWork() {
   return (
@@ -14,23 +15,87 @@ function OurWork() {
             time.
           </p>
         </div>
-        <div className="bg-cyan-400  md:max-h-96 my-4 flex justify-center  rounded-xl">
-          <img className="md:w-full " src="./ourMac.png" />
+        <div>
+          <Link to="#">
+            {" "}
+            <img
+              src="./work1.webp"
+              alt="our works"
+              loading="lazy"
+              className="rounded-2xl w-full h-[50vh] my-3 object-cover"
+            />
+          </Link>
+          <p>Speedy Delivery</p>
+          <p>App</p>
         </div>
-        <div className="bg-teal-300 md:max-h-96 my-4 flex justify-center  rounded-xl">
-          <img className="md:w-full" src="./ourMeg1.png" />
+        <div>
+          {" "}
+          <Link to="#">
+            {" "}
+            <img
+              src="./work2.png"
+              alt="our works"
+              loading="lazy"
+              className="rounded-2xl w-full h-[50vh] my-3 object-cover"
+            />
+          </Link>
+          <p>Debenhams</p>
+          <p>Web</p>
         </div>
-        <div className=" my-4 flex md:max-h-96 justify-center  rounded-xl">
-          <img className="w-full rounded-xl" src="./ourScreen.png" />
+
+        <div>
+          {" "}
+          <Link to="#">
+            {" "}
+            <img
+              src="./work3.png"
+              alt="our works"
+              loading="lazy"
+              className="rounded-2xl w-full h-[50vh] my-3 object-cover"
+            />
+          </Link>
+          <p>Berkeley Square Medical</p>
+          <p>Web</p>
         </div>
-        <div className="bg-red-600 md:max-h-96 my-4 flex justify-end  rounded-xl">
-          <img className="" src="./ourMobile.png" />
+
+        <div>
+          {" "}
+          <Link to="#">
+            <img
+              src="./work4.png"
+              alt="our works"
+              loading="lazy"
+              className="rounded-2xl w-full h-[50vh] my-3 object-cover"
+            />
+          </Link>
+          <p>HOBBS</p>
+          <p>Web</p>
         </div>
-        <div className="bg-red-600 md:max-h-96 my-4 flex justify-end  rounded-xl">
-          <img className="w-full " src="./ourListMob.png" />
+
+        <div>
+          <Link to="#">
+            <img
+              src="./work5.png"
+              alt="our works"
+              loading="lazy"
+              className="rounded-2xl w-full h-[50vh] my-3 object-cover"
+            />
+          </Link>
+          <p>Electric Car Charger</p>
+          <p>Web</p>
         </div>
-        <div className="bg-red-600 md:max-h-96 my-4 flex justify-end  rounded-xl">
-          <img className="w-full " src="./ourListMob.png" />
+
+        <div>
+          <Link to="#">
+            <img
+              src="./work5.png"
+              alt="our works"
+              loading="lazy"
+              className="rounded-2xl w-full h-[50vh] my-3 object-cover"
+            />
+          </Link>
+          <p>Season Master</p>
+          <p>Web</p>
         </div>
       </div>
     </>

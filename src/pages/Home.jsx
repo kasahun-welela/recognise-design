@@ -14,7 +14,7 @@ function Home() {
       <Hero />
       <Carousel />
       <AboutUS />
-      <div className="m-7 lg:mx-40 md:mx-24 md:grid grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="m-7  md:grid grid-cols-2 lg:grid-cols-3 gap-4 md:w-[60%] md:mx-auto">
         {data.map((values) => (
           <Card
             key={values.id}
