@@ -4,8 +4,8 @@ function OurWork() {
   return (
     <>
       <div className="mx-7 md:mx-24 md:grid grid-cols-2 gap-2 gap-x-3">
-        <div>
-          <h1 className=" text-center text-2xl font-bold mb-3 text-blue-800">
+        <div className="col-span-2">
+          <h1 className=" text-center text-2xl font-bold mb-3 text-primary">
             Our Works
           </h1>{" "}
           <p className="md:text-center">
@@ -14,19 +14,11 @@ function OurWork() {
             time.
           </p>
         </div>
-        <div className="justify-end gap-2 mt-10 hidden md:flex ">
-          <h1>All</h1>
-          <h1>Website</h1>
-          <h1>Mobile App</h1>
-        </div>
         <div className="bg-cyan-400  md:max-h-96 my-4 flex justify-center  rounded-xl">
           <img className="md:w-full " src="./ourMac.png" />
         </div>
         <div className="bg-teal-300 md:max-h-96 my-4 flex justify-center  rounded-xl">
-          {/* <div className="h-35"> */}
-          {/* <img className="absolute right-0" src="./ourMeg2.png" /> */}
           <img className="md:w-full" src="./ourMeg1.png" />
-          {/* </div> */}
         </div>
         <div className=" my-4 flex md:max-h-96 justify-center  rounded-xl">
           <img className="w-full rounded-xl" src="./ourScreen.png" />

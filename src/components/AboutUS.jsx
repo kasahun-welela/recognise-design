@@ -3,7 +3,7 @@ import React from "react";
 function AboutUS() {
   return (
     <>
-      <h1 className="mt-6 text-center text-2xl font-bold mb-3 text-blue-800">
+      <h1 className="mt-6 text-center text-2xl font-bold mb-3 text-primary">
         About us
       </h1>
       <div className="mx-7 md:mx-40  flex flex-col md:flex-row-reverse md:gap-4 leading-relaxed  items-center">
@@ -52,7 +52,7 @@ function AboutUS() {
           </span>
 
           <a
-            className=" mb-10 text-white bg-blue-800 px-12 py-3 rounded-3xl  inline-block mt-8  shadow-lg hover:shadow-blue-500/50"
+            className=" mb-10 text-white bg-primary px-12 py-3 rounded-3xl  inline-block mt-8  shadow-lg hover:shadow-blue-500/50"
             href="#"
           >
             About Us
