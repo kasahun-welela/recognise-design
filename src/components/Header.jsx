@@ -1,30 +1,75 @@
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 
 function Header() {
   const [isNavOpen, setIsNavOpen] = useState(true);
   const handleMenu = () => setIsNavOpen((prev) => !prev);
   return (
-    <div className="w-full shadow-2xl">
+    <div className="w-full shadow-md">
       <div className=" h-18  justify-between items-center px-20 py-5 md:flex lg:flex hidden">
         <h1 className="h-10 w-10 ml-20">
           <img src="./logo.png" alt="lll" />
         </h1>
         <ul className=" md:flex lg:flex  gap-5 font-serif hidden mr-20 ">
-          <li className="hover:bg-slate-200 font-semibold">
-            {" "}
-            <a href="/">Home</a>
+          <li>
+            <NavLink
+              className={({ isActive }) =>
+                `hover:text-blue-700 font-semibold ${
+                  isActive ? "text-blue-700 font-bold" : ""
+                }`
+              }
+              to="/"
+            >
+              Home
+            </NavLink>
           </li>
-          <li className="hover:bg-slate-200 font-semibold">
-            <a href="/about">About</a>
+          <li>
+            <NavLink
+              to="/about"
+              className={({ isActive }) =>
+                `hover:text-blue-700 font-semibold ${
+                  isActive ? "text-blue-700 font-bold" : ""
+                }`
+              }
+            >
+              About
+            </NavLink>
           </li>
-          <li className="hover:bg-slate-200 font-semibold">
-            <a href="/services">Services</a>
+          <li>
+            <NavLink
+              to="/services"
+              className={({ isActive }) =>
+                `hover:text-blue-700 font-semibold ${
+                  isActive ? "text-blue-700 font-bold" : ""
+                }`
+              }
+            >
+              Services
+            </NavLink>
           </li>
-          <li className="hover:bg-slate-200 font-semibold">
-            <a href="/portofolio">Portofolio</a>
+          <li>
+            <NavLink
+              to="/portfolio"
+              className={({ isActive }) =>
+                `hover:text-blue-700 font-semibold ${
+                  isActive ? "text-blue-700 font-bold" : ""
+                }`
+              }
+            >
+              Portfolio
+            </NavLink>
           </li>
           <li className="hover:bg-slate-200  font-semibold">
-            <a href="/contactus">Contact Us</a>
+            <NavLink
+              to="/contact_us"
+              className={({ isActive }) =>
+                `hover:text-blue-700 font-semibold ${
+                  isActive ? "text-blue-700 font-bold" : ""
+                }`
+              }
+            >
+              Contact Us
+            </NavLink>
           </li>
         </ul>
       </div>
@@ -53,23 +98,68 @@ function Header() {
         </div>
         {!isNavOpen && (
           <ul className="bg-white font-serif flex flex-col pl-4 pt-3 gap-1">
-            <li className="hover:bg-slate-200 font-semibold">
+            <li>
               {" "}
-              <a href="/">Home</a>
+              <NavLink
+                to="/"
+                className={({ isActive }) =>
+                  `hover:text-blue-700 font-semibold ${
+                    isActive ? "text-blue-700 font-bold" : ""
+                  }`
+                }
+              >
+                Home
+              </NavLink>
             </li>
-            <li className="hover:bg-slate-200 font-semibold">
+            <li>
               {" "}
-              <a href="/about">About</a>
+              <NavLink
+                to="/about"
+                className={({ isActive }) =>
+                  `hover:text-blue-700 font-semibold ${
+                    isActive ? "text-blue-700 font-bold" : ""
+                  }`
+                }
+              >
+                About
+              </NavLink>
             </li>
-            <li className="hover:bg-slate-200 font-semibold">
+            <li>
               {" "}
-              <a href="/services">Services</a>
+              <NavLink
+                to="/services"
+                className={({ isActive }) =>
+                  `hover:text-blue-700 font-semibold ${
+                    isActive ? "text-blue-700 font-bold" : ""
+                  }`
+                }
+              >
+                Services
+              </NavLink>
             </li>
-            <li className="hover:bg-slate-200 font-semibold">
-              <a href="/portofolio">Portofolio</a>
+            <li>
+              <NavLink
+                to="/portfolio"
+                className={({ isActive }) =>
+                  `hover:text-blue-700 font-semibold ${
+                    isActive ? "text-blue-700 font-bold" : ""
+                  }`
+                }
+              >
+                Portfolio
+              </NavLink>
             </li>
             <li className="hover:bg-slate-200  font-semibold">
-              <a href="/contactus">Contact Us</a>
+              <NavLink
+                to="/contact_us"
+                className={({ isActive }) =>
+                  `hover:text-blue-700 font-semibold ${
+                    isActive ? "text-blue-700 font-bold" : ""
+                  }`
+                }
+              >
+                Contact Us
+              </NavLink>
             </li>
           </ul>
         )}
