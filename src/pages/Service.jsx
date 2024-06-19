@@ -1,11 +1,12 @@
 import React from "react";
 import Collaboration from "../components/Collaboration";
+import { Link } from "react-router-dom";
 
 function Service() {
   return (
     <div className="mt-32 mx-7">
       <h1 className="text-3xl text-center">
-        Our <span className="text-blue-600 font-semibold">Services</span>
+        Our <span className="text-primary font-semibold">Services</span>
       </h1>
       <p className="my-3  text-center text-lg ">
         Guaranteed results in conversion rate of online platforms throughout the
@@ -31,19 +32,15 @@ function Service() {
           <p className="text-lg md:ml-20 text-justify ">
             We are driven by values We strive to be a company that has strong
             and long lasting bond with their clients and work along side them
-            for the same goal.Through teamwork we make continous endeavors to
+            for the same goal.Through teamwork we make continuous endeavors to
             establish a well-organized and professional online image for your
             company.
           </p>
-          <div className="flex md:ml-20 gap-3 mt-3">
+          <div className="flex md:ml-20 gap-3 mt-3 items-center">
             <p className="text-lg text-blue-700 font-semibold ">Explore</p>
-            <a href="#">
-              <img
-                src="./arrow.png"
-                className=" rounded-full bg-gray-200 p-3"
-                alt="arrow"
-              />
-            </a>
+            <Link to="#">
+              <i className="ri-arrow-right-line rounded-full bg-gray-200 p-3 hover:bg-primary hover:text-white"></i>
+            </Link>
           </div>
         </div>
       </div>
@@ -63,19 +60,15 @@ function Service() {
           <p className="text-lg md:ml-20 text-justify">
             We are driven by values We strive to be a company that has strong
             and long lasting bond with their clients and work along side them
-            for the same goal.Through teamwork we make continous endeavors to
+            for the same goal.Through teamwork we make continuous endeavors to
             establish a well-organized and professional online image for your
             company.
           </p>
-          <div className="flex md:ml-20 gap-3 mt-3">
+          <div className="flex md:ml-20 gap-3 mt-3 items-center">
             <p className="text-lg text-blue-700 font-semibold ">Explore</p>
-            <a href="#">
-              <img
-                src="./arrow.png"
-                className=" rounded-full bg-gray-200 p-3"
-                alt="arrow"
-              />
-            </a>
+            <Link to="#">
+              <i className="ri-arrow-right-line rounded-full bg-gray-200 p-3 hover:bg-primary hover:text-white"></i>
+            </Link>
           </div>
         </div>
       </div>
@@ -92,19 +85,15 @@ function Service() {
           <p className="text-lg md:ml-20 text-justify">
             We are driven by values We strive to be a company that has strong
             and long lasting bond with their clients and work along side them
-            for the same goal.Through teamwork we make continous endeavors to
+            for the same goal.Through teamwork we make continuous endeavors to
             establish a well-organized and professional online image for your
             company.
           </p>
-          <div className="flex md:ml-20 gap-3 mt-3">
-            <p className="text-lg text-blue-700 font-semibold ">Explore</p>
-            <a href="#">
-              <img
-                src="./arrow.png"
-                className=" rounded-full bg-gray-200 p-3"
-                alt="arrow"
-              />
-            </a>
+          <div className="flex md:ml-20 gap-3 mt-3 items-center">
+            <p className="text-lg text-blue-700 font-semibold">Explore</p>
+            <Link to="#">
+              <i className="ri-arrow-right-line rounded-full bg-gray-200 p-3 hover:bg-primary hover:text-white"></i>
+            </Link>
           </div>
         </div>
       </div>
@@ -121,19 +110,15 @@ function Service() {
           <p className="text-lg md:ml-20 text-justify">
             We are driven by values We strive to be a company that has strong
             and long lasting bond with their clients and work along side them
-            for the same goal.Through teamwork we make continous endeavors to
+            for the same goal.Through teamwork we make continuous endeavors to
             establish a well-organized and professional online image for your
             company.
           </p>
-          <div className="flex md:ml-20 gap-3 mt-3">
+          <div className="flex md:ml-20 gap-3 mt-3 items-center">
             <p className="text-lg text-blue-700 font-semibold ">Explore</p>
-            <a href="#">
-              <img
-                src="./arrow.png"
-                className=" rounded-full bg-gray-200 p-3"
-                alt="arrow"
-              />
-            </a>
+            <Link to="#">
+              <i className="ri-arrow-right-line rounded-full bg-gray-200 p-3 hover:bg-primary hover:text-white"></i>
+            </Link>
           </div>
         </div>
       </div>
@@ -149,19 +134,15 @@ function Service() {
           <p className="text-lg md:ml-20 text-justify">
             We are driven by values We strive to be a company that has strong
             and long lasting bond with their clients and work along side them
-            for the same goal.Through teamwork we make continous endeavors to
+            for the same goal.Through teamwork we make continuous endeavors to
             establish a well-organized and professional online image for your
             company.
           </p>
-          <div className="flex md:ml-20 gap-3 mt-3">
+          <div className="flex md:ml-20 gap-3 mt-3 items-center">
             <p className="text-lg text-blue-700 font-semibold ">Explore</p>
-            <a href="#">
-              <img
-                src="./arrow.png"
-                className=" rounded-full bg-gray-200 p-3"
-                alt="arrow"
-              />
-            </a>
+            <Link to="/">
+              <i className="ri-arrow-right-line rounded-full bg-gray-200 p-3 hover:bg-primary hover:text-white"></i>
+            </Link>
           </div>
         </div>
       </div>
